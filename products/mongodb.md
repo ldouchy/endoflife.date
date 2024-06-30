@@ -45,6 +45,13 @@ auto:
 # Release dates are not in sync with https://www.mongodb.com/support-policy/lifecycles because git
 # tag dates are used by the automation.
 releases:
+-   releaseCycle: "7.3"
+    releaseLabel: "7.3 (Rapid Release)"
+    releaseDate: 2024-03-19
+    eol: false
+    latest: '7.3.3'
+    latestReleaseDate: 2024-06-10
+
 -   releaseCycle: "7.2"
     releaseLabel: "7.2 (Rapid Release)"
     releaseDate: 2023-12-14
@@ -62,8 +69,8 @@ releases:
 -   releaseCycle: "7.0"
     releaseDate: 2023-08-01
     eol: 2026-08-31
-    latest: '7.0.7'
-    latestReleaseDate: 2024-03-13
+    latest: '7.0.12'
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "6.3"
     releaseLabel: "6.3 (Rapid Release)"
@@ -89,8 +96,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2022-07-05
     eol: 2025-07-31
-    latest: "6.0.14"
-    latestReleaseDate: 2024-02-20
+    latest: "6.0.16"
+    latestReleaseDate: 2024-06-25
 
 -   releaseCycle: "5.3"
     releaseLabel: "5.3 (Rapid Release)"
@@ -116,8 +123,8 @@ releases:
 -   releaseCycle: "5.0"
     releaseDate: 2021-07-08
     eol: 2024-10-31
-    latest: "5.0.26"
-    latestReleaseDate: 2024-03-20
+    latest: "5.0.27"
+    latestReleaseDate: 2024-06-03
 
 -   releaseCycle: "4.4"
     releaseDate: 2020-07-25

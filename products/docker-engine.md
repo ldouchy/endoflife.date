@@ -19,11 +19,23 @@ auto:
 
 # For EOL, see open milestones on https://github.com/moby/moby/milestones.
 releases:
+-   releaseCycle: "27.0"
+    releaseDate: 2024-06-25
+    eol: false
+    latest: "27.0.2"
+    latestReleaseDate: 2024-06-26
+
+-   releaseCycle: "26.1"
+    releaseDate: 2024-04-22
+    eol: false
+    latest: "26.1.4"
+    latestReleaseDate: 2024-06-05
+
 -   releaseCycle: "26.0"
     releaseDate: 2024-03-20
     eol: false
-    latest: "26.0.0"
-    latestReleaseDate: 2024-03-20
+    latest: "26.0.2"
+    latestReleaseDate: 2024-04-18
 
 -   releaseCycle: "25.0"
     releaseDate: 2024-01-19
@@ -40,8 +52,8 @@ releases:
 -   releaseCycle: "23.0"
     releaseDate: 2023-02-02
     eol: false
-    latest: "23.0.10"
-    latestReleaseDate: 2024-03-21
+    latest: "23.0.13"
+    latestReleaseDate: 2024-06-20
 
   # See https://github.com/endoflife-date/endoflife.date/issues/3006
 -   releaseCycle: "20.10"

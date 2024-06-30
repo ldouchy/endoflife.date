@@ -19,29 +19,29 @@ releases:
 -   releaseCycle: "4.1"
     releaseDate: 2022-12-13
     eol: 2025-07-15
-    latest: "4.1.4"
-    latestReleaseDate: 2024-02-14
+    latest: "4.1.5"
+    latestReleaseDate: 2024-05-20
 
 -   releaseCycle: "4.0"
     releaseDate: 2021-07-26
     eol: 2024-07-15
-    latest: "4.0.12"
-    latestReleaseDate: 2024-01-23
+    latest: "4.0.13"
+    latestReleaseDate: 2024-05-20
 # EOL(3.11) = EOL(3.10) = releaseDate(5.0)
 
 -   releaseCycle: "3.11"
     releaseDate: 2017-06-23
     eol: false
-    latest: "3.11.16"
+    latest: "3.11.17"
     discontinued: true
-    latestReleaseDate: 2023-08-20
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "3.0"
     releaseDate: 2015-11-09
     eol: false
-    latest: "3.0.29"
+    latest: "3.0.30"
     discontinued: true
-    latestReleaseDate: 2023-05-15
+    latestReleaseDate: 2024-04-15
 
 ---
 

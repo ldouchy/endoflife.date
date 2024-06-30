@@ -20,12 +20,20 @@ auto:
 
 # for eol see https://wiki.yoctoproject.org/wiki/Releases
 releases:
+-   releaseCycle: "5.0"
+    codename: 'Scarthgap'
+    lts: true
+    releaseDate: 2024-04-29
+    eol: 2028-04-30
+    latest: "5.0.1"
+    latestReleaseDate: 2024-05-23
+
 -   releaseCycle: "4.3"
     codename: 'Nanbield'
     releaseDate: 2023-11-09
     eol: 2024-06-09
-    latest: "4.3.3"
-    latestReleaseDate: 2024-02-29
+    latest: "4.3.4"
+    latestReleaseDate: 2024-04-09
 
 -   releaseCycle: "4.2"
     codename: 'Mickledore'
@@ -46,8 +54,8 @@ releases:
     lts: true
     releaseDate: 2022-04-25
     eol: 2026-04-27
-    latest: "4.0.16"
-    latestReleaseDate: 2024-02-06
+    latest: "4.0.19"
+    latestReleaseDate: 2024-06-18
 
 -   releaseCycle: "3.4"
     codename: 'Honister'
@@ -74,9 +82,9 @@ releases:
     codename: 'Dunfell'
     lts: true
     releaseDate: 2020-04-21
-    eol: 2024-04-01
-    latest: "3.1.32"
-    latestReleaseDate: 2024-03-07
+    eol: 2024-04-30
+    latest: "3.1.33"
+    latestReleaseDate: 2024-05-03
 
 -   releaseCycle: "3.0"
     codename: 'Zeus'

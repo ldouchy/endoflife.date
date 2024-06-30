@@ -22,23 +22,41 @@ auto:
         eol: "Lifecycle End Date"
 
 releases:
+-   releaseCycle: "9.9"
+    releaseDate: 2024-05-30
+    eol: 2024-09-15
+    latest: '9.9.1'
+    latestReleaseDate: 2024-06-26
+
+-   releaseCycle: "9.8"
+    releaseDate: 2024-05-01
+    eol: 2024-08-15
+    latest: '9.8.1'
+    latestReleaseDate: 2024-05-23
+
+-   releaseCycle: "9.7"
+    releaseDate: 2024-04-01
+    eol: 2024-07-15
+    latest: '9.7.5'
+    latestReleaseDate: 2024-05-30
+
 -   releaseCycle: "9.6"
     releaseDate: 2024-02-28
     eol: 2024-06-15
-    latest: '9.6.0'
-    latestReleaseDate: 2024-02-28
+    latest: '9.6.3'
+    latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "9.5"
     releaseDate: 2024-02-01
     eol: 2024-11-15
-    latest: '9.5.2'
-    latestReleaseDate: 2024-03-01
+    latest: '9.5.6'
+    latestReleaseDate: 2024-05-30
 
 -   releaseCycle: "9.4"
     releaseDate: 2023-12-19
     eol: 2024-04-15
-    latest: '9.4.4'
-    latestReleaseDate: 2024-03-04
+    latest: '9.4.5'
+    latestReleaseDate: 2024-03-21
 
 -   releaseCycle: "9.3"
     releaseDate: 2023-11-27
@@ -68,8 +86,8 @@ releases:
     lts: true
     releaseDate: 2023-08-10
     eol: 2024-05-15
-    latest: '8.1.11'
-    latestReleaseDate: 2024-03-04
+    latest: '8.1.13'
+    latestReleaseDate: 2024-04-24
 
 -   releaseCycle: "8.0"
     releaseDate: 2023-07-09
@@ -185,19 +203,8 @@ releases:
 -   releaseCycle: "6.0"
     releaseDate: 2021-10-08
     eol: 2022-01-15
-    latestReleaseDate: 2021-12-15
     latest: '6.0.4'
-
-
-
-
-
-
-
-
-
-
-
+    latestReleaseDate: 2021-12-15
 
 ---
 

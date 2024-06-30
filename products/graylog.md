@@ -22,17 +22,23 @@ auto:
 # eol(x) = releaseDate(x+2)
 # Note: for release < 4.0, used releaseDate(x+1) as it looked more accurate
 releases:
+-   releaseCycle: "6.0"
+    releaseDate: 2024-05-06
+    eol: false
+    latest: "6.0.3"
+    latestReleaseDate: 2024-06-05
+
 -   releaseCycle: "5.2"
     releaseDate: 2023-10-30
     eol: false
-    latest: "5.2.5"
-    latestReleaseDate: 2024-03-06
+    latest: "5.2.8"
+    latestReleaseDate: 2024-06-05
 
 -   releaseCycle: "5.1"
     releaseDate: 2023-05-11
-    eol: false
-    latest: "5.1.12"
-    latestReleaseDate: 2024-03-06
+    eol: 2024-05-06
+    latest: "5.1.13"
+    latestReleaseDate: 2024-04-03
 
 -   releaseCycle: "5.0"
     releaseDate: 2022-11-30
@@ -164,7 +170,7 @@ releases:
 
 ---
 
-> Graylog is a centralized logging solution based that enables aggregating and searching through
+> [Graylog](https://graylog.org/) is a centralized logging solution based that enables aggregating and searching through
 > logs. It provides a query language, a processing pipeline for data transformation, alerting
 > abilities, and much more. It is extensible through a REST API or add-ons that can be downloaded
 > from [the Graylog marketplace](https://marketplace.graylog.org/).

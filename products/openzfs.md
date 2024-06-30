@@ -22,12 +22,12 @@ auto:
 # supportedLinux / supportedFreeBSD is available at the top of each release note and evolve even in minor versions.
 releases:
 -   releaseCycle: "2.2"
-    supportedLinux: "3.10 - 6.5"
+    supportedLinux: "3.10 - 6.8"
     supportedFreeBSD: "12.2-RELEASE+"
     releaseDate: 2023-10-12
     eol: false # releaseDate(2.3)
-    latest: "2.2.3"
-    latestReleaseDate: 2024-02-22
+    latest: "2.2.4"
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "2.1"
     lts: true

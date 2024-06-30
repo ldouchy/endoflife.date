@@ -5,7 +5,7 @@ tags: hashicorp
 iconSlug: consul
 permalink: /consul
 versionCommand: consul --version
-releasePolicyLink: https://support.hashicorp.com/hc/articles/360021185113
+releasePolicyLink: https://support.hashicorp.com/hc/en-us/articles/360021185113-Support-Period-and-End-of-Life-EOL-Policy
 changelogTemplate: https://github.com/hashicorp/consul/blob/v__LATEST__/CHANGELOG.md
 releaseDateColumn: true
 
@@ -22,29 +22,35 @@ identifiers:
 
 # eol(x) = releaseDate(x+3)
 releases:
+-   releaseCycle: "1.19"
+    releaseDate: 2024-06-12
+    eol: false
+    latest: '1.19.0'
+    latestReleaseDate: 2024-06-12
+
 -   releaseCycle: "1.18"
     releaseDate: 2024-02-26
     eol: false
-    latest: '1.18.0'
-    latestReleaseDate: 2024-02-26
+    latest: '1.18.2'
+    latestReleaseDate: 2024-05-16
 
 -   releaseCycle: "1.17"
     releaseDate: 2023-11-03
     eol: false
-    latest: '1.17.3'
-    latestReleaseDate: 2024-02-13
+    latest: '1.17.4'
+    latestReleaseDate: 2024-03-26
 
 -   releaseCycle: "1.16"
     releaseDate: 2023-06-26
-    eol: false
-    latestReleaseDate: 2024-02-13
-    latest: '1.16.6'
+    eol: 2024-06-12
+    latestReleaseDate: 2024-03-26
+    latest: '1.16.7'
 
 -   releaseCycle: "1.15"
     releaseDate: 2023-02-23
     eol: 2024-02-27
-    latestReleaseDate: 2024-02-13
-    latest: '1.15.10'
+    latestReleaseDate: 2024-03-26
+    latest: '1.15.11'
 
 -   releaseCycle: "1.14"
     eol: 2023-11-03

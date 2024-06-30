@@ -26,17 +26,31 @@ auto:
       regex: ^release-(?P<major>\d+)\.(?P<minor>\d+)\.(?P<patch>\d+)$
 
 # eol(x) = releaseDate(x+2)
+
 releases:
--   releaseCycle: "1.25"
-    releaseDate: 2023-05-23
+-   releaseCycle: "1.27"
+    releaseDate: 2024-05-28
     eol: false
     link: https://nginx.org/en/CHANGES
-    latest: "1.25.4"
-    latestReleaseDate: 2024-02-14
+    latest: "1.27.0"
+    latestReleaseDate: 2024-05-28
+
+-   releaseCycle: "1.26"
+    releaseDate: 2024-04-23
+    eol: false
+    latest: "1.26.1"
+    latestReleaseDate: 2024-05-28
+
+-   releaseCycle: "1.25"
+    releaseDate: 2023-05-23
+    eol: 2024-05-29
+    link: https://nginx.org/en/CHANGES
+    latest: "1.25.5"
+    latestReleaseDate: 2024-04-16
 
 -   releaseCycle: "1.24"
     releaseDate: 2023-04-11
-    eol: false
+    eol: 2024-04-23
     latest: "1.24.0"
     latestReleaseDate: 2023-04-11
 

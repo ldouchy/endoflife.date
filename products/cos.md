@@ -18,37 +18,43 @@ auto:
   methods:
   -   custom: cos
 
+# For EOL dates, see https://cloud.google.com/container-optimized-os/docs/release-notes#lts_image_families.
 releases:
-# Active Milestones
+-   releaseCycle: "cos-113"
+    lts: true
+    releaseDate: 2024-04-15
+    eol: 2026-03-01
+    latest: "cos-113-18244-85-39"
+    latestReleaseDate: 2024-06-24
+
 -   releaseCycle: "cos-109"
     lts: true
     releaseDate: 2023-09-27
     eol: 2025-09-01
-    latest: "cos-109-17800-147-38"
-    latestReleaseDate: 2024-03-20
+    latest: "cos-109-17800-218-62"
+    latestReleaseDate: 2024-06-24
 
 -   releaseCycle: "cos-105"
     lts: true
     releaseDate: 2023-04-03
     eol: 2025-04-01
-    latest: "cos-105-17412-294-46"
-    latestReleaseDate: 2024-03-20
+    latest: "cos-105-17412-370-61"
+    latestReleaseDate: 2024-06-24
 
 -   releaseCycle: "cos-101"
     lts: true
     releaseDate: 2022-09-15
     eol: 2024-09-01
-    latest: "cos-101-17162-386-47"
-    latestReleaseDate: 2024-03-20
+    latest: "cos-101-17162-463-51"
+    latestReleaseDate: 2024-06-24
 
 -   releaseCycle: "cos-97"
     lts: true
     releaseDate: 2022-03-29
     eol: 2024-03-01
-    latest: "cos-97-16919-450-34"
-    latestReleaseDate: 2024-03-20
+    latest: "cos-97-16919-450-41"
+    latestReleaseDate: 2024-03-27
 
-# Deprecated Milestones
 -   releaseCycle: "cos-93"
     lts: true
     releaseDate: 2021-10-18

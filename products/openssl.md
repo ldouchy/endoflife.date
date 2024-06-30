@@ -8,7 +8,7 @@ releasePolicyLink: https://www.openssl.org/policies/releasestrat.html
 changelogTemplate: "https://www.openssl.org/news/cl{{'__RELEASE_CYCLE__'|replace:'.',''}}.txt"
 releaseDateColumn: true
 eolColumn: Supported
-extendedSupportColumn: Premium support
+eoesColumn: Premium support
 
 auto:
   methods:
@@ -17,33 +17,37 @@ auto:
 
 # EOL dates and LTS infos on https://www.openssl.org/policies/releasestrat.html
 releases:
+-   releaseCycle: "3.3"
+    releaseDate: 2024-04-09
+    eol: 2026-04-10
+    latest: "3.3.1"
+    latestReleaseDate: 2024-06-04
+
 -   releaseCycle: "3.2"
     releaseDate: 2023-11-23
     eol: 2025-11-23
-    extendedSupport: false
-    latest: "3.2.1"
-    latestReleaseDate: 2024-01-30
+    latest: "3.2.2"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "3.1"
     releaseDate: 2023-03-14
     eol: 2025-03-14
-    extendedSupport: false
-    latest: "3.1.5"
-    latestReleaseDate: 2024-01-30
+    latest: "3.1.6"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "3.0"
     lts: true
     releaseDate: 2021-09-07
     eol: 2026-09-07
-    extendedSupport: true
-    latest: "3.0.13"
-    latestReleaseDate: 2024-01-30
+    eoes: false
+    latest: "3.0.14"
+    latestReleaseDate: 2024-06-04
 
 -   releaseCycle: "1.1.1"
     lts: true
     releaseDate: 2018-09-11
     eol: 2023-09-11
-    extendedSupport: true
+    eoes: false
     latest: "1.1.1w"
     latestReleaseDate: 2023-09-12
     link: https://www.openssl.org/news/changelog.txt
@@ -51,7 +55,6 @@ releases:
 -   releaseCycle: "1.1.0"
     releaseDate: 2016-08-25
     eol: 2019-09-11
-    extendedSupport: false
     latest: "1.1.0l"
     latestReleaseDate: 2019-09-10
     link: https://www.openssl.org/news/changelog.txt
@@ -60,7 +63,7 @@ releases:
     lts: true
     releaseDate: 2015-01-22
     eol: 2019-12-31
-    extendedSupport: true
+    eoes: false
     latest: "1.0.2u"
     latestReleaseDate: 2019-12-20
     link: https://www.openssl.org/news/changelog.txt
@@ -77,7 +80,7 @@ It is supported for [UNIX-like platforms](https://github.com/openssl/openssl/blo
 [DOS platform with DJGPP](https://github.com/openssl/openssl/blob/master/NOTES-DJGPP.md),
 [OpenVMS](https://github.com/openssl/openssl/blob/master/NOTES-VMS.md),
 [Perl](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md) and
-[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-PERL.md).
+[Valgrind](https://github.com/openssl/openssl/blob/master/NOTES-VALGRIND.md).
 
 LTS releases will be supported for at least five years, and they will specify one at least every
 four years. Non-LTS releases will be supported for at least two years.

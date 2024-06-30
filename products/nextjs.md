@@ -19,13 +19,13 @@ auto:
   methods:
   -   npm: next
 
-# EOL(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
+# eol(x) = MAX(releaseDate(x+1), latestReleaseDate(x))
 releases:
 -   releaseCycle: "14"
     releaseDate: 2023-10-26
     eol: false
-    latest: "14.1.4"
-    latestReleaseDate: 2024-03-20
+    latest: "14.2.4"
+    latestReleaseDate: 2024-06-11
 
 -   releaseCycle: "13"
     releaseDate: 2022-10-25
@@ -65,7 +65,7 @@ releases:
 > developer-friendly, with a focus on fast refresh and an optimized production build.
 
 Next.js follows [semantic versioning](https://semver.org/). Major versions are released on average twice per year,
-minor versions more frequently, and patch versions very frequently. Important security patches can be 
+minor versions more frequently, and patch versions very frequently. Important security patches can be
 backported to past major versions, but it's not clear which past versions are supported or not on https://nextjs.org/.
 
 Next.js has [two release channels](https://github.com/vercel/next.js/blob/canary/contributing/repository/release-channels-publishing.md):

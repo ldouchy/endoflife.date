@@ -6,11 +6,10 @@ iconSlug: mysql
 permalink: /mysql
 versionCommand: mysqld --version
 releasePolicyLink: https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf
-releaseImage:
-  https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
+releaseImage: https://blogs.oracle.com/content/published/api/v1.1/assets/CONT32EABEA4FBCC4464BD35F58CEEA2EAFD/Medium?format=jpg&channelToken=32954b2a813146c9b9a4fa99364eba8e
 changelogTemplate: "https://dev.mysql.com/doc/relnotes/mysql/__RELEASE_CYCLE__/en/news-{{'__LATEST__'|replace:'.','-'}}.html"
 releaseDateColumn: true
-activeSupportColumn: Premier Support
+eoasColumn: Premier Support
 eolColumn: Extended Support
 
 # Regexes take into account the first GA release in each cycle.
@@ -39,23 +38,31 @@ identifiers:
 # eol -> GA+8 years = Extended Support
 # We show Extended support dates since that match Community Edition timelines
 releases:
+-   releaseCycle: "8.4"
+    releaseDate: 2024-04-10
+    lts: true
+    eoas: 2029-04-30
+    eol: 2032-04-30
+    latest: '8.4.0'
+    latestReleaseDate: 2024-04-10
+
 -   releaseCycle: "8.3"
     releaseDate: 2023-12-14
-    support: true
+    eoas: false
     eol: false
     latest: '8.3.0'
     latestReleaseDate: 2023-12-14
 
 -   releaseCycle: "8.2"
     releaseDate: 2023-10-12
-    support: true
+    eoas: false
     eol: false
     latest: '8.2.0'
     latestReleaseDate: 2023-10-12
 
 -   releaseCycle: "8.1"
     releaseDate: 2023-06-21
-    support: 2023-10-25
+    eoas: 2023-10-25
     eol: 2023-10-25
     latest: '8.1.0'
     latestReleaseDate: 2023-06-21
@@ -63,28 +70,28 @@ releases:
 -   releaseCycle: "8.0"
     releaseDate: 2018-04-08
     lts: 2023-07-18
-    support: 2025-04-30
+    eoas: 2025-04-30
     eol: 2026-04-30
-    latest: '8.0.36'
-    latestReleaseDate: 2023-12-12
+    latest: '8.0.37'
+    latestReleaseDate: 2024-05-02
 
 -   releaseCycle: "5.7"
     releaseDate: 2015-10-09
-    support: 2020-10-31
+    eoas: 2020-10-31
     eol: 2023-10-31
     latest: '5.7.44'
     latestReleaseDate: 2023-09-20
 
 -   releaseCycle: "5.6"
     releaseDate: 2013-02-01
-    support: 2018-02-28
+    eoas: 2018-02-28
     eol: 2021-02-28
     latest: '5.6.51'
     latestReleaseDate: 2021-01-05
 
 -   releaseCycle: "5.5"
     releaseDate: 2010-12-03
-    support: 2015-12-31
+    eoas: 2015-12-31
     eol: 2018-12-31
     latest: '5.5.63'
     latestReleaseDate: 2018-12-21

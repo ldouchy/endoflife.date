@@ -20,10 +20,10 @@ identifiers:
 releases:
 -   releaseCycle: "2"
     releaseDate: 2021-12-01
-    support: true
+    eoas: false
     eol: false
-    latest: "2.133.0"
-    latestReleaseDate: 2024-03-14
+    latest: "2.147.2"
+    latestReleaseDate: 2024-06-27
 
 ---
 
